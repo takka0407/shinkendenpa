@@ -32,6 +32,11 @@ table {
 table, td, th{
     border: 1px solid black;
     }
+@media (max-width: 640px) {
+    .table-scroll {
+        overflow-x: scroll;
+    }
+}
 @media only screen and (max-width:600px){
     header {
         padding :5px;
