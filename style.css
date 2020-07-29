@@ -32,6 +32,9 @@ table {
 table, td, th{
     border: 1px solid black;
     }
+.table-scroll {
+        overflow-x: scroll;
+    }
 @media (max-width: 640px) {
     .table-scroll {
         overflow-x: scroll;
