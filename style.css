@@ -26,7 +26,6 @@ h1 {
 }
 table {
         table-layout: fixed;
-        width: 300px;
         height: 50px;
     }
 @media only screen and (max-width:600px){
@@ -41,7 +40,7 @@ table {
     }
     table {
         table-layout: fixed;
-        width: 300px;
+        width:600px;
         height: 50px;
     }
 @media only screen and (max-width:480px){
@@ -56,7 +55,21 @@ table {
     }
     table {
         table-layout: fixed;
-        width: 300px;
+        width:480px;
+        height: 50px;
+@media only screen and (max-width:320px){
+    header {
+        padding :5px;
+    }
+    header h1 {
+        font-size: 12px;
+    }
+    .test {
+        font-size:12px;
+    }
+    table {
+        table-layout: fixed;
+        width:320px;
         height: 50px;
     }
 }
