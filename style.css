@@ -30,6 +30,7 @@ h1 {
     }
     header h1 {
         font-size: 12px;
-
-    }  
+    }
+    .test
+        font-size:12px;
 }
