@@ -32,6 +32,24 @@ h1 {
         font-size: 12px;
     }
     .test {
+        font-size:14px;
+    }
+    table {
+        table-layout: fixed;
+        width: 300px;
+    }
+@media only screen and (max-width:480px){
+    header {
+        padding :5px;
+    }
+    header h1 {
+        font-size: 12px;
+    }
+    .test {
         font-size:12px;
+    }
+    table {
+        table-layout: fixed;
+        width: 300px;
     }
 }
