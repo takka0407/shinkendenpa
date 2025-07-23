@@ -4,6 +4,7 @@ body {
     padding: 10px;
     font-size: 14px;
     color: #666;
+    margin:0 auto;
 }
 
 .container {
@@ -55,7 +56,7 @@ table, td, th{
             max-width: 100%;
         }
         table, td, th{
-            border: 10px solid black;
+            border: 1px solid black;
         }
         .table-scroll {
             overflow-x: scroll;
